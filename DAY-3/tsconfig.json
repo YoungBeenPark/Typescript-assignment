@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // ts -> js버전으로 지정
+    "module": "commonjs", // node 모듈 시스템
+    "esModuleInterop": true, // import 문법 사용설정
+    "strict": true, // ts 타입검사를 엄격하게 함 (false)는 느슨하게
+    "skipLibCheck": true,
+  },
+  "include": [
+    "src/**/*"  // src 디렉토리 내의 모든 파일 포함
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+  
+}
