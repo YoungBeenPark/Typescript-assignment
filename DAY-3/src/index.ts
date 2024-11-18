@@ -21,5 +21,6 @@ console.log(variable);
 variable = 42;
 console.log(variable);
 
+
 variable = true;
 console.log(variable); 
